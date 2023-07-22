@@ -1,4 +1,4 @@
 # VVIT-Clubs
-Music Club
-Dance Club
+Music Club,
+Dance Club and
 culinary Club
