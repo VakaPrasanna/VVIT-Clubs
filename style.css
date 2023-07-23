@@ -20,7 +20,7 @@ header{
     
 }
 body{
-    background-color:#9ae6fd;
+    background-color:#FAD2FD;
 }
 img{
     
@@ -28,8 +28,8 @@ img{
     width: 180px;
 }
 header .clubs{
-    color: #000;
-    font-size:40px;
+    color: #A2159F;
+    font-size:43px;
     font-weight:900;
     text-decoration: none;
     text-transform: uppercase;
@@ -43,7 +43,7 @@ header .nav{
 
 header .nav .nav-items a{
     position: relative;
-    color: #000;
+    color: #7C037A;
     font-size:large;
     font-weight:500;
     text-decoration: none;
@@ -106,6 +106,7 @@ section{
 .home .theme p{
     margin-bottom: 50px;
     color:rgb(239, 6, 208);
+    font-weight: 500;
 }
 .home .theme a{
     background: #fff;
@@ -117,6 +118,7 @@ section{
     text-align: center;
     border-radius: 15px;
 }
+
 @media (max-width:1020px) {
     header {
          padding: 0px 0px;
@@ -138,6 +140,17 @@ section{
         align-items: center;
         background:rgba(1,1,1,0.5);
     }
+    header .nav .nav-items{
+        max-width: 500px;
+        width:500px;
+        margin: 20px;
+        padding: 35px;
+        background:#fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+   }
     header .nav .nav-items a {
         position: relative;
         color: #000;
@@ -147,6 +160,7 @@ section{
         transition: 0.1s ease;
         margin: 15px;
     }
+
     .menu{
         background:url(./Images/menulogo.jpeg)no-repeat;
         background-size: 30px;
