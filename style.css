@@ -96,8 +96,12 @@ section{
     width: 75%;
     margin-top: 40px;
     margin-left:50px;
+    display: none;
 }
 
+.home .theme.active{
+     display: block;
+}
 .home .theme h1{
     text-decoration: none;
     text-transform: uppercase;
@@ -150,7 +154,7 @@ section{
     box-shadow: 0 0 2px rgba(248, 4, 4, 0.5);
 }
 .slidernav .slider.active{
-   background: #000;
+   background: purple;
 }
 
 .slidernav .slider:not(:last-child){
@@ -158,6 +162,16 @@ section{
 }
 .slidernav .slider:hover{
     transform: scale(1.4);
+}
+.slidevideo{
+    width:100%;
+    position: absolute;
+    clip-path: circle(0% at 0 50%);
+}
+.slidevideo.active{
+    clip-path: circle(150% at 0 53%);
+    transition: 0.2s ease;
+    transition-property: clip-path;
 }
 
 @media (max-width:1020px) {
@@ -170,11 +184,11 @@ section{
     header .clubs {
         margin-left: 10px;
     }
-    header .nav {
-        position:relative;
+    header .nav{
+        position:absolute;
         width:100%;
         height:90vh;
-        top:0;
+        top: 0;
         left:0;
         display:none;
         justify-content: center;
@@ -206,7 +220,7 @@ section{
         background:url(./Images/menulogo.jpeg)no-repeat;
         background-size: 30px;
         width:35px;
-        height: 35px;
+        height:35px;
         background-position: center;
         cursor: pointer;
         transition: 0.1s ease;
