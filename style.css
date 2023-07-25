@@ -208,7 +208,7 @@ section{
    }
     header .nav .nav-items a {
         position: relative;
-        color: #000;
+        color:purple;
         font-size: large;
         font-weight: 500;
         text-decoration: none;
