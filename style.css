@@ -131,6 +131,35 @@ section{
     border-radius: 15px;
 }
 
+.slidernav{
+    z-index: 888;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    transform: translateY(80px);
+}
+.slidernav .slider{
+    height: 17px;
+    width:17px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 100%;
+    transition: 0.2s ease;
+    box-shadow: 0 0 2px rgba(248, 4, 4, 0.5);
+}
+.slidernav .slider.active{
+   background: #000;
+}
+
+.slidernav .slider:not(:last-child){
+        margin-right:15px;
+}
+.slidernav .slider:hover{
+    transform: scale(1.4);
+}
+
 @media (max-width:1020px) {
     header {
          padding: 0px 0px;
