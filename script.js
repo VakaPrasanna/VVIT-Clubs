@@ -1,6 +1,6 @@
 const menubutton = document.querySelector(".menu");
 const navigation = document.querySelector(".nav");
-menubutton.addEventListener("click", () => {
+menubutton.addEventListener("click",() => {
     menubutton.classList.toggle("active");
     navigation.classList.toggle("active");
     }
@@ -23,7 +23,7 @@ var slidernavigation = function(manual){
     sliderbtn[manual].classList.add("active");
     slides[manual].classList.add("active");
     themes[manual].classList.add("active");
-}
+};
 sliderbtn.forEach((button,i)=>{
     button.addEventListener("click",()=>{
         slidernavigation(i);
