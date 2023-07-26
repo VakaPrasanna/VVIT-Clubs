@@ -205,7 +205,11 @@ section{
    }
     header .nav .nav-items a {
         position: relative;
+<<<<<<< HEAD
         color: purple;
+=======
+        color:purple;
+>>>>>>> f139e4ae133abddefeaf4644528d1f0fed877a2c
         font-size: large;
         font-weight: 500;
         text-decoration: none;
