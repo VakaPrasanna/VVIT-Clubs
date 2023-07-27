@@ -6,5 +6,6 @@ Dance Club:
 ![dance3](https://github.com/VakaPrasanna/VVIT-Clubs/assets/96370281/cb187e53-9ba5-4d07-9ddc-e1ffa9d7f9dd)
 
 culinary Club:
-![cooking](https://github.com/VakaPrasanna/VVIT-Clubs/assets/96370281/c0daf2b2-8eed-4092-a47e-e230807a4ea5)
+![image](https://github.com/VakaPrasanna/VVIT-Clubs/assets/96370281/b2393e5f-12e9-4f81-970c-a0b674f2a862)
+
 
